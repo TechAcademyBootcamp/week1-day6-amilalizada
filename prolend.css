@@ -1,6 +1,6 @@
 html {
-    font-family: sans-serif;
-    line-height: 1.15;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
 }
 
 * {
@@ -13,11 +13,6 @@ body {
     overflow-x: hidden;
 }
 
-
-/* .navbar {
-        margin: 30px 0 0 0;
-    } */
-
 .container {
     margin: auto;
     width: 1140px !important;
@@ -28,7 +23,7 @@ body {
 }
 
 #first {
-    height: 70vh;
+    height: 90vh;
     margin-top: 175px;
     display: flex;
 }
@@ -178,11 +173,6 @@ li {
     font-style: italic!important;
 }
 
-.firstrigth .animation img {
-    animation: drop;
-    animation: bounceHero 3s infinite;
-}
-
 .smallpic {
     display: flex;
 }
@@ -201,6 +191,7 @@ li {
     animation-direction: normal;
     animation-fill-mode: none;
     animation-play-state: running;
+    margin-top: -58px;
 }
 
 @-webkit-keyframes bounceHero {
@@ -230,6 +221,7 @@ li {
 .rowplatform {
     display: flex;
     align-items: center;
+    margin-top: 180px;
 }
 
 .platform {
@@ -260,10 +252,6 @@ li {
     margin: 20px 115px;
 }
 
-.bir {
-    display: table-column;
-}
-
 .platform:hover {
     transform: translateY(-10px);
     box-shadow: 0 0 55px rgba(18, 24, 43, 0.125);
@@ -291,21 +279,278 @@ li {
     line-height: 1.2;
 }
 
-
-}
-. .uchisse {
+.uchisse {
     display: flex;
     position: relative;
     top: 120px;
 }
-.dordhisse {
-    position: relative;
-    top: 200px;
-    height: 400px;
-    width: 100%;
+
+.dordhisserow {
+    align-items: center!important;
+    justify-content: space-around;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 165px;
+    height: 800px;
     background-color: #fafafa;
 }
+
 .dordsol {
-    width: 400px;
-    height: 500px;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.dordsol ul li {
+    list-style: none;
+}
+
+.service-icon {
+    width: 78px;
+    height: 54px;
+}
+
+.listyle {
+    display: flex;
+}
+
+.promotext {
+    line-height: 1.3;
+    text-align: left;
+    font-size: 50px;
+    margin-bottom: 1.5rem!important;
+}
+
+.dordsolic {
+    padding-top: 0!important;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #565656;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.svg {
+    width: 21px;
+    height: 24px;
+}
+
+.service-icon span {
+    height: 54px;
+    width: 54px;
+    display: inline-block;
+    text-align: center;
+    line-height: 54px;
+    font-size: 24px;
+    color: #F74B54;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+.service-iconiki span {
+    height: 54px;
+    width: 54px;
+    display: inline-block;
+    text-align: center;
+    line-height: 54px;
+    font-size: 24px;
+    color: #F74B54;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+.service-iconiki svg {
+    width: 21px;
+    height: 24px;
+}
+
+.dordsag {
+    width: 540px;
+    height: 420px;
+    /* margin-left:50px; */
+}
+
+.service-iconuc span {
+    height: 54px;
+    width: 54px;
+    display: inline-block;
+    text-align: center;
+    line-height: 54px;
+    font-size: 24px;
+    color: #F74B54;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+.service-iconuc svg {
+    width: 21px;
+    height: 24px;
+}
+
+.service-icondord span {
+    height: 54px;
+    width: 54px;
+    display: inline-block;
+    text-align: center;
+    line-height: 54px;
+    font-size: 24px;
+    color: #F74B54;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+.service-icondord svg {
+    width: 21px;
+    height: 24px;
+}
+
+.dordsol .dordsolic .service-list li {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+
+.dordhisserow a {
+    text-decoration: none;
+    margin: 24px 0 0;
+    color: #F74B54;
+}
+
+.dordhisserow a:hover {
+    border: 0 0 5px 0;
+    border-color: #F74B54;
+}
+
+.beshisse {
+    display: flex;
+}
+
+.bessol {
+    width: 540px;
+    height: 530px;
+}
+
+.bessol img {
+    width: 300px;
+    height: 537px;
+}
+
+.bessag {
+    width: 540px;
+    height: 539px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 125px;
+}
+
+.beshiki {
+    font-size: 35px;
+    color: #222;
+}
+
+.bespiki {
+    color: #222;
+    margin-top: 30px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #565656;
+    margin-bottom: 0;
+}
+
+.atag {
+    margin-top: 25px;
+}
+
+.atag a {
+    text-decoration: none;
+    color: #F74B54;
+}
+
+.atag a:hover {
+    text-decoration: underline;
+    color: #F74B54;
+    transition: 2s ease;
+}
+
+.backimg {
+    background-image: url(https://theme-land.com/prolend/demo/assets/img/bg/cta-bg.png);
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    opacity: 0.08;
+    padding: 336px 46px 99px 0px;
+    position: relative;
+    margin-left: 360px;
+    z-index: -1;
+    width: 750px;
+    height: 455px;
+}
+
+.mid4 {
+    margin-top: -310px;
+    margin-bottom: 1000px;
+    margin-left: 85px;
+    font-family: sans-serif;
+}
+
+.midd4 {
+    opacity: 1;
+    font-family: sans-serif;
+    width: 50%;
+    line-height: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: ;
+}
+
+.midd4 a {
+    color: #F74B54;
+    text-decoration: none;
+}
+
+.midd4 a:hover {
+    text-decoration: underline;
+}
+
+.midd4 p {
+    font-family: sans-serif;
+}
+
+.midd4 h1 {
+    font-family: sans-serif;
+}
+
+.last {
+    margin-right: -18px;
 }
